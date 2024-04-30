@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(65.56deg, #190361 0%, #BB00FF 100%);
+  height: 100vh;
+
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hide {
+  display: none;
+}
+
+body,
+button,
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+main {
+  width: min(42.8rem, 90%);
+  background-color: #fff;
+  border-radius: .5rem;
+
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+
+  text-align: center;
+}
+
+main h1 {
+  font-size: 2.4rem;
+  color: #34355B;
+
+  margin-bottom: 1.4rem;
+}
+
+main p {
+  margin-bottom: 2.0rem;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Result page */
+
+h2 {
+  font-size: 2.4rem;
+  color: #34355B;
+
+  margin-bottom: 2.7rem;
+}
+
+.resultPage div {
+  background-color: #E4EDF1;
+  padding: 1.0rem;
+
+  font-family: "Dancing Script", sans-serif;
+  font-size: 2.4rem;
+
+  margin-bottom: 1.7rem;
+
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 50%);
+}
+
+.resultPage figure img {
+  margin-bottom: 1.7rem;
+}
+
+.resultPage #btnBack {
+  padding: 1.6rem;
+  background: #FF9500;
+  color: #fff;
+  border-radius: .4rem;
+  font-weight: bold;
+
+  transition: background .3s;
+}
+
+.resultPage button:hover {
+  background: #e58500;
+}

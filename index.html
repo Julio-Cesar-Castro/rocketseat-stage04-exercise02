@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <main>
+    <div class="home">
+      <h1>Qual é a sua sorte de hoje?</h1>
+      <p>Abra o biscoito e descubra</p>
+
+      <form>
+        <button onclick="handleNextPage(event)" id="btnNext">
+          <img src="./assets/biscoito.svg" alt="">
+        </button>
+      </form>
+    </div>
+
+    <div class="resultPage hide">
+      <h2>Aqui está a sua sorte hoje:</h2>
+
+      <div id="Phrase">
+        Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.
+      </div>
+
+      <figure>
+        <img src="./assets/biscoitoAberto.svg" alt="">
+      </figure>
+
+      <form>
+        <button onclick="handleBackPage(event)" id="btnBack">Abrir outro biscoito</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
